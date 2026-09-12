@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="icon" sizes="32x32" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <link rel="stylesheet" href="style.css">
+     <title>Spotify – Web Player</title>
+    
+</head>
+<body>
+
+<div class="main">
+    <div class="sidebar">
+        <div class="nav">
+            <div class="nav-option"style="opacity:1">
+                <i class="fa-solid fa-house"></i>
+                <a href="#" >home</a>
+            </div>
+            <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#" >search</a>
+            </div>
+        </div>
+        <div class="library">
+            <div class="option"> 
+                <div class="lib-option nav-option">
+                  <img src="./homewrkassets/library_icon.png">
+                  <a href="#" >your library</a>
+                </div>
+               <div class="icons">
+                  <i class="fa-solid fa-plus"></i>
+                  <i class="fa-solid fa-arrow-right"></i>
+               </div>
+            </div>
+            <div class="lib-boxes">
+                <div class="box">
+                    <p class="box-p1"> Create your first playlist</p>
+                    <p class="box-p2"> it's easy we'll help you</p>
+                    <button class="badge">create playlist</button>
+                </div>
+                <div class="box">
+                    <p class="box-p1">let's find some prodcast to follow </p>
+                    <p class="box-p2">we'll keep updated on new episode</p>
+                    <button class="badge"> Brows prodcast</button>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="main-content">
+    <div class="sticky-nav">
+         <div class="-sticky-nav-icons">
+            <img src="./homewrkassets/backward_icon.png">
+            <img src="./homewrkassets/forward_icon.png" class="hide">
+        </div>
+
+        <div class="sticky-nav-option">
+           <button class="badge hide"> Explore Premium </button>
+           <button class="badge dark-badge"> <i class="fa-solid fa-download style:margin-right:10px"></i> Install App</button>
+           <i class="fa-solid fa-user"></i> 
+       </div>  
+    </div >
+   
+        <h2>Recently played</h2>
+        <div class="cards-container"> 
+            <div class="card">
+               <img src="homewrkassets/card1img.jpeg" class="card-image">
+               <p class="card-title">Top-50-global</p>
+               <p class="card-info"> Your daily update of most played tracks ...</p>
+            </div>
+        </div>
+
+        <h2>trending now near you   </h2>
+        <div class="cards-container"> 
+            <div class="card">
+               <img src="homewrkassets/card2img.jpeg" class="card-image">
+               <p class="card-title">Top-50-global</p>
+               <p class="card-info"> Your daily update of most played tracks ...</p>
+            </div>
+            <div class="card">
+                <img src="homewrkassets/card3img.jpeg" class="card-image">
+                <p class="card-title">Top-50-global</p>
+                <p class="card-info"> Your daily update of most played tracks ...</p>
+             </div>
+              <div class="card">
+               <img src="homewrkassets/card4img.jpeg" class="card-image">
+               <p class="card-title">Top-50-global</p>
+               <p class="card-info"> Your daily update of most played tracks ...</p>
+            </div>
+            <div class="card">
+                <img src="homewrkassets/card4img.jpeg" class="card-image">
+                <p class="card-title">Top-50-global</p>
+                <p class="card-info"> Your daily update of most played tracks ...</p>
+             </div>
+             <div class="card">
+                <img src="homewrkassets/card4img.jpeg" class="card-image">
+                <p class="card-title">Top-50-global</p>
+                <p class="card-info"> Your daily update of most played tracks ...</p>
+             </div>
+            
+            
+        </div>
+
+        <h2>Feature charts</h2>
+        <div class="cards-container"> 
+            <div class="card">
+               <img src="homewrkassets/card5img.jpeg" class="card-image">
+               <p class="card-title">Top-50-global</p>
+               <p class="card-info"> Your daily update of most played tracks ...</p>
+            </div>
+            <div class="card">
+                <img src="homewrkassets/card6img.jpeg" class="card-image">
+                <p class="card-title">Top-songs-india</p>
+                <p class="card-info"> Your daily update of most played tracks ...</p>
+             </div>
+             <div class="card">
+                <img src="homewrkassets/card1img.jpeg" class="card-image">
+                <p class="card-title">Top-songs-global</p>
+                <p class="card-info"> Your daily update of most played tracks ...</p>
+             </div>
+            </div>
+         <div class="footer">
+            <div class="line">
+                 
+            </div>
+         </div>
+   </div>
+
+    <div class="music-player">
+        <div class="album">
+            <div class="img">
+                <img src="assets/album_picture.jpeg" alt="Daylight album" class="specialimage">
+            </div>
+        
+            <span class="song-info">
+                <p style="font-weight: 800; font-size: 1rem;">Daylight</p>
+                <p>David kushar</p>
+            </span>
+        
+                <img src="assets/album_icon1.png" alt="Icon 1">
+                <img src="assets/album_icon2.png" alt="Icon 2">
+            
+        </div>
+        <div class="player">
+            <div class="player-control">
+                <img src="homewrkassets/player_icon1.png"  class="player-control-icon">
+                <img src="homewrkassets/player_icon2.png"  class="player-control-icon">
+                <img src="homewrkassets/player_icon3.png"  class="player-control-icon" style="opacity:1; height:2rem">
+                <img src="homewrkassets/player_icon4.png"  class="player-control-icon">
+                <img src="homewrkassets/player_icon5.png"  class="player-control-icon">
+
+            </div>
+             <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" value=0 class="progress-bar" step="1">
+                <span class="'tot-time">3:33</span>
+             </div>
+        </div>
+        <div class="control">
+                <img src="assets/controld_icon2.png" alt="img1">
+                <img src="assets/controls_icon1.png" alt="img2">
+                <img src="assets/controls_icon3.png" alt="img3">
+                <img src="assets/controls_icon4.png" alt="img4">
+                   <div class="songrange">
+                      <img src="assets/controls_icon5.png" alt="img5" >
+                      <input type="range" min="0" max="100" class='soundcontrol'>
+                   </div>
+            
+         </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>
